@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "backend",
   "version": "1.0.0",
   "description": "Api Restful para blog",
   "main": "index.js",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/azaelsanchez/BackBlogFrameworks/issues"
   },
-  "homepage": "https://github.com/azaelsanchez/BackBlogFrameworks#readme"
+  "homepage": "https://github.com/azaelsanchez/BackBlogFrameworks#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "connect-multiparty": "2.2.0",
+    "express": "4.17.1",
+    "mongoose": "5.7.13",
+    "validator": "12.1.0"
+  }
 }
