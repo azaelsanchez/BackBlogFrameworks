@@ -18,15 +18,15 @@ app.use(bodyParser.json());
 //Añadimos prefijos a rutas
 
 //Ruta de pruba para el API
-app.get('/creador', (req, res) =>{
-    console.log("Hola mundo");
+// app.get('/creador', (req, res) =>{
+//     console.log("Hola mundo");
 
-    return res.status(200).send({
-        resultado: 'Blog Frameworks',
-        autor: 'Azael Sánchez',
-        url: 'azaelsanchez.com'
-    });
-});
+//     return res.status(200).send({
+//         resultado: 'Blog Frameworks',
+//         autor: 'Azael Sánchez',
+//         url: 'azaelsanchez.com'
+//     });
+// });
 
 //Exportamos el modulo
 
